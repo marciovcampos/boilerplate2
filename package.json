@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint src --max-warnings=0",
+    "lint": "next lint src --no-cache --max-warnings=0",
     "prepare": "husky install",
     "commit": "git-cz",
     "test": "jest",
